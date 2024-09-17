@@ -1,0 +1,18 @@
+h1, form {
+    text-align: center;
+}
+body{
+    background-color:rgb(4, 24, 141)
+    color: white;
+}
+
+button{
+    background-color: rgb(13, 12, 16)16)
+    color:white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 7px;
+}
+form{
+    font-size: 20px;
+}
