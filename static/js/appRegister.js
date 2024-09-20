@@ -2,5 +2,7 @@
 
 
 function register_user(){
-    alert("HOLA ESTUDIANTE")
+    #alert("HOLA ESTUDIANTE")
+    window.location = '/register_user'
+
 }
