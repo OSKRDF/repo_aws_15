@@ -21,9 +21,9 @@ def connection_SQL():
         print("Error",err)
         return None
 
-def insert():
+def insert(id, name, lastname, birthday):
     try:
-        instruction = "INSERT INTO users VALUES('642','Anyi','Alfonso','2000-09-19');"
+        instruction = "INSERT INTO users VALUES("+id+",'"+name+"','"+lastname+"','"+birthday+"');"
         connection = connection_SQL()
         cursor = connection.cursor()
         cursor.execute(instruction)
